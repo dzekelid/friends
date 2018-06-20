@@ -1,22 +1,21 @@
 ---
 name: Twitter
 x-slug: twitter
-description: Twitter is a global real-time communications platform with 400 million
-  monthly visitors to twitter.com, more than 200 million monthly active users around
-  the world.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
-x-kinRank: "10"
-x-alexaRank: ""
+description: From breaking news and entertainment to sports and politics, get the
+  full story with all the live commentary.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+x-kinRank: "9"
+x-alexaRank: "13"
 tags: Friends
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Twitter Get Friends
   x-api-slug: twitter
   description: returns a cursored collection of user IDs followed by user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friends/ids
   tags: Social,Friends
@@ -28,7 +27,7 @@ apis:
 - name: Twitter Get Followers
   x-api-slug: twitter
   description: returns a cursored collection of user IDs following the user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//followers/ids
   tags: Social,Friends
@@ -40,7 +39,7 @@ apis:
 - name: Twitter Get Friend Requests
   x-api-slug: twitter
   description: returns collection of IDs of users with pending follow request
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/incoming
   tags: Social,Friends
@@ -53,7 +52,7 @@ apis:
   x-api-slug: twitter
   description: returns collection of IDs of users with pending follow request from
     the user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/outgoing
   tags: Social,Friends
@@ -65,7 +64,7 @@ apis:
 - name: Twitter Follow User
   x-api-slug: twitter
   description: allows users to follow user sepcified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/create
   tags: Social,Friends
@@ -77,7 +76,7 @@ apis:
 - name: Twitter Unfollow user
   x-api-slug: twitter
   description: allows user to unfollow user psecified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/destroy
   tags: Social,Friends
@@ -89,7 +88,7 @@ apis:
 - name: Twitter Unfollow User
   x-api-slug: twitter
   description: Allows one to enable or disable settings for specified user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/update
   tags: Social,Friends
@@ -101,7 +100,7 @@ apis:
 - name: Twitter Get Friends
   x-api-slug: twitter
   description: returns detailed info about relationship between two users
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1//friendships/show
   tags: Social,Friends
@@ -112,10 +111,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsshow-get-openapi.md
 - name: Twitter
   x-api-slug: twitter
-  description: Twitter is a global real-time communications platform with 400 million
-    monthly visitors to twitter.com, more than 200 million monthly active users around
-    the world.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
+  description: From breaking news and entertainment to sports and politics, get the
+    full story with all the live commentary.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Friends
@@ -123,7 +121,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://tweetinvi.codeplex.com/
 - type: x-advertising-development-kit
   url: https://docs.fabric.io/unity/mopub/overview.html
@@ -163,6 +161,8 @@ x-common:
   url: http://dev.twitter.com/rest/tools/console
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/twitter
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/twitter
 - type: x-css-control
   url: https://dev.twitter.com/web/overview/css
 - type: x-developer
@@ -173,6 +173,8 @@ x-common:
   url: https://blog.twitter.com/api/blog.rss?name=developer
 - type: x-documentation
   url: https://dev.twitter.com/overview/documentation
+- type: x-email
+  url: copyright@twitter.com
 - type: x-embeddable
   url: https://dev.twitter.com/web/overview
 - type: x-encryption
@@ -199,7 +201,7 @@ x-common:
   url: https://dev.twitter.com/overview/general/adding-international-support-to-your-apps
 - type: x-java-library
   url: https://www.github.com/twitter/hbc
-- type: x-nodejs-library
+- type: x-node-js-library
   url: https://github.com/BoyCook/TwitterJSClient
 - type: x-oembed
   url: https://dev.twitter.com/web/embedded-timelines/oembed
@@ -241,6 +243,8 @@ x-common:
   url: https://dev.twitter.com/overview/terms
 - type: x-transparency-report
   url: https://transparency.twitter.com/
+- type: x-twitter
+  url: https://twitter.com/Twitter
 - type: x-twitter
   url: https://twitter.com/twitterapi/
 - type: x-twitter

@@ -1,67 +1,48 @@
 ---
 name: Facebook
 x-slug: facebook
-description: Facebook is an online social networking service that allows its users
-  to connect with friends and family as well as make new connections. It provides
-  its users with the ability to create a profile, update information, add images,
-  send friend requests, and accept requests from other users. Its features include
-  status update, photo tagging and sharing, and more.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+description: Create an account or log into Facebook. Connect with friends, family
+  and other people you know. Share photos and videos, send messages and get updates.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "3"
 tags: Friends
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Facebook Post Test User 1 Friends Test User 2
+- name: Facebook Get User Friends
   x-api-slug: facebook
-  description: The friends of a test user. This is identical to the /&#123;user-id&#125;/friends
-    edge aside from the publishing operation explained below.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;test-user-1&#125;/friends/&#123;test-user-2&#125;
-  tags: Test,User,1,Friends,Test,User,2
+  description: The user's friends
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/friends
+  tags: User,Friends
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123testuser1125friends123testuser2125-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/userfriends-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123testuser1125friends123testuser2125-post-openapi.md
-- name: Facebook Get User Invitable Friends
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/userfriends-get-openapi.md
+- name: Facebook Get User Friends Friend
   x-api-slug: facebook
-  description: User Invitable Friends
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/invitable_friends
-  tags: User,Invitable,Friends
+  description: Checks if the given user is a friend of the current user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/friends/{friend}
+  tags: User,Friends,Friend
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123userid125invitable-friends-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/userfriendsfriend-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123userid125invitable-friends-get-openapi.md
-- name: Facebook Get User Taggable Friends
-  x-api-slug: facebook
-  description: User Taggable Friends
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0//&#123;user-id&#125;/taggable_friends
-  tags: User,Taggable,Friends
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123userid125taggable-friends-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/123userid125taggable-friends-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/facebook/userfriendsfriend-get-openapi.md
 - name: Facebook
   x-api-slug: facebook
-  description: Facebook is an online social networking service that allows its users
-    to connect with friends and family as well as make new connections. It provides
-    its users with the ability to create a profile, update information, add images,
-    send friend requests, and accept requests from other users. Its features include
-    status update, photo tagging and sharing, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: https://facebook.com
-  baseURL: https://graph.facebook.com//v3.0
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
   tags: Friends
   properties:
   - type: x-openapi-spec
@@ -83,6 +64,8 @@ x-common:
   url: https://www.facebook.com/business/news/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/facebook
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/facebook
 - type: x-developer
   url: https://developers.facebook.com/
 - type: x-forum
@@ -115,6 +98,10 @@ x-common:
   url: https://www.facebook.com/about/government_requests
 - type: x-twitter
   url: https://twitter.com/facebook
+- type: x-website
+  url: http:///business
+- type: x-website
+  url: http://facebook.com
 - type: x-website
   url: https://facebook.com
 include: []
