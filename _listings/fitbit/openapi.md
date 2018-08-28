@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Fitbit
 x-complete: 1
@@ -46,18 +45,3 @@ paths:
       - '-'
       - Friends
       - Leaderboard.json
-  /user/{user-id}/friends.json:
-    get:
-      summary: Get User User Friends.json
-      description: Get user's friends in the format requested using units in the unit
-        system which corresponds to the Accept-Language header provided.
-      operationId: getUserUserFriends.json
-      x-api-path-slug: useruseridfriends-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - User
-      - User-id
-      - Friends.json
----

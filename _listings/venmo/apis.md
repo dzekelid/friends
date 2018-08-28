@@ -8,37 +8,32 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo
 x-kinRank: "8"
 x-alexaRank: "3421"
 tags: Friends
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/venmo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Venmo API Get Users User Friends
-  x-api-slug: venmo-api
+- name: Venmo API - Get Users User Friends
+  x-api-slug: usersuser-idfriends-get
   description: Get users user friends.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
   humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1//users/{user_id}/friends
-  tags: Users,User,Id,Friends
+  baseURL: https://api.venmo.com//v1
+  tags: Payments, Social, API LIfeyclessss, Getting Started Example, Stack Network,
+    Technology, Mobile, internet, Financial Services, Payments, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/venmo/usersuser-idfriends-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/venmo/usersuser-idfriends-get-openapi.md
-- name: Venmo API
-  x-api-slug: venmo-api
-  description: The Venmo API provides developers a straightforward way to integrate
-    Venmo into their applications.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
-  humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1
-  tags: Friends
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/venmo/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://github.com/venmo/app-switch-android
+- type: x-api-gallery
+  url: http://uservoice.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://venmo.stack.network
 - type: x-authentication
   url: https://developer.venmo.com/docs/authentication
 - type: x-blog

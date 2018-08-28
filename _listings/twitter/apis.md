@@ -3,123 +3,136 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Friends
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter Get Friends
-  x-api-slug: twitter
+- name: Twitter - Get Friends
+  x-api-slug: friendsids-get
   description: returns a cursored collection of user IDs followed by user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friends/ids
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendsids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendsids-get-openapi.md
-- name: Twitter Get Followers
-  x-api-slug: twitter
+- name: Twitter - Get Followers
+  x-api-slug: followersids-get
   description: returns a cursored collection of user IDs following the user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//followers/ids
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/followersids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/followersids-get-openapi.md
-- name: Twitter Get Friend Requests
-  x-api-slug: twitter
+- name: Twitter - Get Friend Requests
+  x-api-slug: friendshipsincoming-get
   description: returns collection of IDs of users with pending follow request
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/incoming
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsincoming-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsincoming-get-openapi.md
-- name: Twitter Get Friend Requests
-  x-api-slug: twitter
+- name: Twitter - Get Friend Requests
+  x-api-slug: friendshipsoutgoing-get
   description: returns collection of IDs of users with pending follow request from
     the user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/outgoing
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsoutgoing-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
-- name: Twitter Follow User
-  x-api-slug: twitter
+- name: Twitter - Follow User
+  x-api-slug: friendshipscreate-post
   description: allows users to follow user sepcified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/create
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipscreate-post-openapi.md
-- name: Twitter Unfollow user
-  x-api-slug: twitter
+- name: Twitter - Unfollow user
+  x-api-slug: friendshipsdestroy-post
   description: allows user to unfollow user psecified by ID
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/destroy
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsdestroy-post-openapi.md
-- name: Twitter Unfollow User
-  x-api-slug: twitter
+- name: Twitter - Unfollow User
+  x-api-slug: friendshipsupdate-post
   description: Allows one to enable or disable settings for specified user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/update
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsupdate-post-openapi.md
-- name: Twitter Get Friends
-  x-api-slug: twitter
+- name: Twitter - Get Friends
+  x-api-slug: friendshipsshow-get
   description: returns detailed info about relationship between two users
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/show
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/friendshipsshow-get-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Friends
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/friends/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -127,6 +140,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management
